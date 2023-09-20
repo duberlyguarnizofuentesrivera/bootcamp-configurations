@@ -1,5 +1,11 @@
 server:
   port: 8601
 spring:
+spring:
+  data:
+    mongodb:
+      database: clients-management
+      port: 27017
+      host: localhost
   application:
     name: client-management-service
